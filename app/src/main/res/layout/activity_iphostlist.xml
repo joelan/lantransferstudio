@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.networkbroard.Iphostlist">
+
+
+    <TextView android:text="@string/waitingother"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Tips"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_below="@+id/Tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RemoveHostlist"
+
+        >
+
+
+    </ListView>
+
+</RelativeLayout>

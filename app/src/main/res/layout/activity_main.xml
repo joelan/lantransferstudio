@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendboardcast"
+        android:text="发送广播"
+        />
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/senddata"
+        
+        />
+    
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/receiveboardcast"
+        android:text="接收广播"
+        />
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send"
+        android:text="发送消息"
+        />
+     
+     </LinearLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        
+        
+        />
+    
+    <ListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/hostlist"
+        
+        ></ListView>
+    
+    
+    
+    </LinearLayout>
+

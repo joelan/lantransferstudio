@@ -2,3 +2,5 @@
 /app/build
 /.idea
 /.gradle
+/lantransferstudio.iml
+/app/app.iml

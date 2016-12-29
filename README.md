@@ -1,3 +1,2 @@
 # lantransferstudio
-this is local network transferlated demo
-局域网传输demo
+基于socket的局域网文件传输示例
